@@ -1,0 +1,28 @@
+#contenedor {
+  float: left;
+  margin: 0px 0px 500px 80px;
+  width: 90%;
+  align-self: start;
+  background-color: turquoise;
+}
+
+#perfil{
+  border-radius:10%;
+  height:200px;
+  width:400px;
+  display:block;
+  float: left;
+}
+    #login{
+      text-decoration-color: #cf9f19;
+      align-self: center;
+      width: 200px;
+      height: 500px;
+    }
+    
+    #pie {
+      float: left;
+    }
+
+
+   
