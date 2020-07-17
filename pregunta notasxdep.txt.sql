@@ -1,0 +1,2 @@
+select SUM(case when nota>50 and i.residencia='tr' and i.ci=n.ci then 1 else 0 end) as TARIJA, SUM(case when nota>50 and i.residencia='lp' and i.ci=n.ci then 1 else 0 end) as LAPAZ, SUM(case when nota>50 and i.residencia='sc' and i.ci=n.ci then 1 else 0 end) as SANTACRUZ
+from identificador i, notas n 
